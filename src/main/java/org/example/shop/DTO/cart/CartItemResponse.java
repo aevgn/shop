@@ -4,17 +4,20 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.math.BigDecimal;
-import java.util.List;
 
 @Getter
 @Setter
-public class CartResponse {
+public class CartItemResponse {
 
     private Long id;
 
-    private Long userId;
+    private Long productId;
 
-    private List<CartItemResponse> items;
+    private String productName;
+
+    private BigDecimal price;
+
+    private Integer quantity;
 
     private BigDecimal totalPrice;
 

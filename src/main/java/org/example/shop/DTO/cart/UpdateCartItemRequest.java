@@ -5,9 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class AddToCartRequest {
-
-    private Long productId;
+public class UpdateCartItemRequest {
 
     private Integer quantity;
 
