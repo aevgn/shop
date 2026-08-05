@@ -5,6 +5,7 @@ import org.example.shop.DTO.auth.LoginRequest;
 import org.example.shop.DTO.auth.RegisterRequest;
 import org.example.shop.Entity.User;
 import org.example.shop.Repository.UserRepository;
+import org.example.shop.Security.JwtService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
