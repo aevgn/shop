@@ -19,6 +19,6 @@ public class CartItemResponse {
 
     private Integer quantity;
 
-    private BigDecimal totalPrice;
+    private BigDecimal itemTotalPrice;
 
 }
